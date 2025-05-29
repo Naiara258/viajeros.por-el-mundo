@@ -1,0 +1,126 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #FFFFFF;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  padding: 12px 16px;
+  color: white;
+  background-color: #04AA6D;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 4px;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar a {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+.bg-img {
+  background-image: url("img_nature.jpg");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+p {
+  text-align: center;
+  color: black;
+  border: 2px solid blue;
+  padding: 10px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+table {
+  width: 80%;
+  background: white;
+  margin: 20px auto;
+}
+
+a:link {
+  color: blue;
+}
+a:visited {
+  color: green;
+}
+
+ol {
+  background-color: #cce5ff;
+  padding: 20px;
+  margin: 20px auto;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+  width: fit-content;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: DarkSalmon;
+  color: white;
+  margin-top: 30px;
+  width: 100%;
+}
